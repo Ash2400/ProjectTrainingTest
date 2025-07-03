@@ -9,9 +9,9 @@
 <body>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
-    <header>
+    <header style="z-index: 3;">
         <div class="container">
-            <h1>Ash's Diner</h1>
+            <h1>Dreamy Diner</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -22,14 +22,15 @@
             </nav>
         </div>
     </header>
-<section>
-    <img src="images/chefplating.avif" alt="Chef Plating Dish" width="100%" height="100%">
-  </section>
+
+     <img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?_gl=1*18w3s4p*_ga*MTEwMDE2MDE1My4xNzUxNTQwMTI4*_ga_8JE65Q40S6*czE3NTE1NDAxMjgkbzEkZzEkdDE3NTE1NDIyMDYkajUyJGwwJGgw" alt="" width="100%" height="auto">
+
     <section id="home" class="main">
       <div class="content">
-        <h2>Welcome to Ash's Diner</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil, ad officia vero exercitationem alias veritatis maxime ducimus blanditiis veniam?</p>
+        <h2>Welcome to Dreamy Diner</h2>
+        <p>A cozy haven where flavors dance and every meal feels like a special occasion. From comforting classics to imaginative creations, we craft each dish with love and care just for you. Sit back, relax, and let us take you on a delicious journey that awakens your senses and warms your soul. Enjoy your dreamy dining experience!</p>
       </div>
+
         <div class="image"> 
         <img src="https://images.unsplash.com/photo-1494346480775-936a9f0d0877?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
         </div>
@@ -40,61 +41,82 @@
   <thead>
     <tr>
       <th>Category</th>
+      <th>Name</th>
       <th>Description</th>
       <th>Price</th>
+      
     </tr>
   </thead>
   <tbody>
-  
-
+<!-- breakfast -->
     <tr>
-      <td rowspan="3">Starter</td>
-      <td>Garlic Bread</td>
-      <td>$5</td>
-    </tr>
-    <tr>
-      <td>salad</td>
+      <td rowspan="5">Breakfast</td>
+      <td>Sunrise Pancakes</td>
+      <td>Fluffy buttermilk pancakes served with maple syrup and seasonal berries</td>
       <td>$6</td>
     </tr>
     <tr>
-      <td>Soup</td>
-      <td>$4</td>
+      <td>Vanilla French Toast</td>
+      <td>Thick-cut brioche soaked in vanilla batter, dusted with powdered sugar, and served with caramelized bananas.</td>
+      <td>$7.50</td>
+    </tr>
+    <tr>
+      <td>Sunrise Harvest Salad</td>
+      <td>Baby kale, roasted sweet potatoes, pecans, goat cheese, dried cranberries, and a poached egg with honey-lemon vinaigrette.</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Classic Eggs Benedict</td>
+      <td>Poached eggs and Canadian bacon on an English muffin, topped with hollandaise sauce.</td>
+      <td>$8</td>
     </tr>
 
-
+<!-- mains -->
 <tr class="spacer-row">
-  <td colspan="3"></td>
+  <td colspan="4"></td>
 </tr>
     <tr>
       <td rowspan="4">Mains</td>
-      <td>Spaghetti</td>
-      <td>$12</td>
-    </tr>
-    <tr>
-      <td>Grilled Chicken</td>
-      <td>$15</td>
-    </tr>
-    <tr>
-      <td>MoMo</td>
+      <td>Classic Cheeseburger</td>
+      <td>Juicy meat patty with cheddar, lettuce, tomato, and house-made pickles on a toasted bun with a side of fries.</td>
       <td>$11</td>
     </tr>
     <tr>
-      <td>peporoni pizza</td>
-      <td>$18</td>
+      <td>Grilled Chicken Club</td>
+      <td>Grilled chicken breast with bacon, lettuce, tomato, and mayo on toasted sourdough.</td>
+      <td>$9</td>
     </tr>
-
-<tr class="spacer-row">
-  <td colspan="3"></td>
-</tr>
-
     <tr>
-      <td rowspan="2">Dessert</td>
-      <td>Blueberry Icecream Cake</td>
+      <td>Steamed Chicken Momos</td>
+      <td>Delicate dumplings filled with seasoned chicken, served with tangy tomato-chili dip.</td>
       <td>$6</td>
     </tr>
     <tr>
-      <td>Chocolate Cake</td>
-      <td>$5</td>
+      <td>Pepperoni Pizza</td>
+      <td>Hand-tossed dough topped with zesty tomato sauce, mozzarella, and spicy pepperoni slices.</td>
+      <td>$14</td>
+    </tr>
+
+<!-- dessert -->
+<tr class="spacer-row">
+  <td colspan="4"></td>
+</tr>
+
+    <tr>
+      <td rowspan="3">Dessert</td>
+      <td>Blueberry Bliss Cake</td>
+      <td>Vanilla sponge with blueberry compote, whipped cream, and fresh blueberries.</td>
+      <td>$8</td>
+    </tr>
+    <tr>
+      <td>Chocolate Fudge Cake</td>
+      <td>Moist layers of rich chocolate cake with a silky fudge frosting and a hint of espresso.</td>
+      <td>$9</td>
+    </tr>
+    <tr>
+      <td>Vanilla Bean Ice Cream Sundae</td>
+      <td>Classic vanilla bean ice cream topped with warm chocolate ganache, roasted hazelnuts, and a cherry blossom crisp.</td>
+      <td>$10</td>
     </tr>
   </tbody>
 </table>
@@ -107,36 +129,36 @@
         <h2 style="text-align: center;">Our Speciality</h2>
         <div class="menu-items">
             <div class="menu-item">
-                <img src="images/image1.avif" alt="Chicken Momos" width="300" height="200">
-                <h3>Chicken Momos</h3>
-                <p>Flour dumplings with a generous filling of chicken mixed with various spices.</p>
+                <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="Sunrise Pancakes" width="300" height="200">
+                <h3>Sunrise Pancakes</h3>
+                <p>Fluffy buttermilk pancakes served with maple syrup and seasonal berries.</p>
             </div>
             <div class="menu-item">
-                <img src="images/chefplating.avif" alt="Pasta" width="300" height="200">
-                <h3>Pasta</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <img src="https://cdn.pixabay.com/photo/2021/09/02/18/00/burger-6594067_1280.jpg" alt="Cheeseburger" width="300" height="200">
+                <h3>Classic Cheeseburger</h3>
+                <p>Juicy meat patty with cheddar, lettuce, tomato, and house-made pickles on a toasted bun with a side of fries</p>
             </div>
             <div class="menu-item">
-                <img src="images/chefplating.avif" alt="Pasta" width="300" height="200">
-                <h3>Pasta</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            </div>
+              <img src="https://cdn.pixabay.com/photo/2020/03/15/23/05/momos-4935232_1280.jpg" alt="Chicken Momos" width="300" height="200">
+              <h3>Chicken Momos</h3>
+              <p>Flour dumplings with a generous filling of chicken mixed with various spices.</p>
+          </div>
             <div class="menu-item">
-                <img src="images/chefplating.avif" alt="Pasta" width="300" height="200">
-                <h3>Pasta</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <img src="https://cdn.pixabay.com/photo/2020/06/19/11/53/candy-5317181_1280.jpg" alt="Blueberry Dream Pie" width="300" height="200">
+                <h3>Blueberry Bliss Cake</h3>
+                <p>Vanilla sponge with blueberry compote, whipped cream, and fresh blueberries.</p>
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" style="background-color: lavender; padding: 20px;">
       <h2 style="text-align: center;">Contact Us</h2>
       <p style="text-align: center;">Phone: <a href="">981234567</a></p>
       <p style="text-align: center;"><a href="">FaceBook</a></p>
       <p style="text-align: center;"><a href="">Instagram</a></p>
     </section>
     <footer>
-      <div class="container">
-        <p style="text-align: center;">&copy; 2025 Ash's Diner. All rights reserved.</p>
+      <div style="background-color: lavender; padding-bottom: 20px;">
+        <p style="text-align: center;">&copy; 2025 Dreamy Diner. All rights reserved.</p>
       </div>
     </footer>
     
