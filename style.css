@@ -9,7 +9,7 @@
 /* Body */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #e2d3c6;
+  background-color: rgb(163, 164, 223);
   color: black;
   line-height: 1.6;
 }
@@ -19,7 +19,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #ffe8cc;
+  background-color: #8581fb;
   padding: 15px 0;
 }
 
@@ -43,10 +43,9 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #cc5500; /* burnt orange */
+  color: #011115;
   font-weight: bold;
   transition: color 0.3s ease;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
 }
 
 nav a:hover {
@@ -71,11 +70,13 @@ nav a:hover {
   align-items:center;
   flex: 1;
   max-width: 800px;
+  border: 8px solid rgb(3, 10, 58);
+  width: fit-content;
+  margin: 20px auto;
 }
 .image img{
   width: 100%;
   height: auto;
-  display: block;
 }
 
 @media (max-width: 600px) {
@@ -97,12 +98,12 @@ table {
 th, td {
   padding: 12px;
   text-align: left;
-  background-color: #fffaf5; 
-  border: 1px solid #e0c9b9; 
+  background-color: #ccdde8; 
+  border: 1px solid #0f1d2c; 
 }
 
 th {
-  background-color: #fbd9bd;
+  background-color: #4a8ce2;
 }
 
 /* Special Section */
@@ -115,7 +116,7 @@ th {
 }
 
 .menu-item {
-  background-color: gray;
+  background-color: rgb(110, 141, 168);
   border-radius: 8px;
   padding: 15px;
   max-width: 300px;
@@ -155,4 +156,46 @@ th {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+/* review */
+.customer-reviews {
+  background-color: #7571b0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.customer-reviews h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #101010;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.review {
+  background-color: #b5c1ff;
+  border-left: 4px solid #b800b2;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.review p {
+  font-size: 1.5;
+  color: #2d2d2d;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.review h4 {
+  font-weight: normal;
+  color: #050505;
+  margin: 0;
 }
